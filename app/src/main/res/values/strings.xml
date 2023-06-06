@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ENGLISH KIDS LEARN WITH FUN</string>
+
+    <string name="navi_home">Home</string>
+
+    <string name="navi_account">Tài khoản</string>
+    <string name="navi_myProfile">Hồ sơ</string>
+    <string name="navi_changePass">Đổi mật khẩu</string>
+    <string name="navi_logOut">Đăng xuất</string>
+
+
+    <string name="navi_navi_open">Open Navigation Drawer</string>
+    <string name="navi_navi_close">Close Navigation</string>
+
+
+</resources>

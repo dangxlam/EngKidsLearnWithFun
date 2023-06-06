@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.liamdang.englishkidslearnwithfun">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!-- Required only if your app needs to access images or photos
+     that other apps created. -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+
+
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ENGLISHKIDSLEARNWITHFUN"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.RealtimeDb"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CategoryFunction"
+            android:exported="false" />
+        <activity
+            android:name=".activity.WordArrange"
+            android:exported="false" />
+        <activity
+            android:name=".MyService"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PronunciationActivity"
+            android:exported="false" />
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true"
+            android:label="Home"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ObjectActivity"
+            android:label="Objects"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChooseImgActivity"
+            android:label="Game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.QuizActivity"
+            android:label="Quiz"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.RegisterActivity" />
+    </application>
+
+</manifest>

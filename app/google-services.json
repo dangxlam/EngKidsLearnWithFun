@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "919508619890",
+    "firebase_url": "https://engkidlearnwithfun-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "engkidlearnwithfun",
+    "storage_bucket": "engkidlearnwithfun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919508619890:android:cdb88d5906e650bdb9a8eb",
+        "android_client_info": {
+          "package_name": "com.liamdang.englishkidslearnwithfun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919508619890-ldub2sb3eajeq7lbqjf0j7q3rv6rdhcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN_rA5uybn4qBJH3BT13bvmykQqtgL2VU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919508619890-ldub2sb3eajeq7lbqjf0j7q3rv6rdhcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
